@@ -72,11 +72,12 @@ class App extends Component {
     };
   }
 
-  /* Save the face-box coordinations into the 'box' state variable. */
+  /* Save the face-box coordinations to a state variable. */
   displayFaceBox = (box) => {
     this.setState({box});
   }
 
+  /* Save the image URL input to a state variable. */
   onInputChange = (event) => {
     this.setState({input: event.target.value});
   }
