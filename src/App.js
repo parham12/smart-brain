@@ -72,6 +72,7 @@ class App extends Component {
     };
   }
 
+  /* Save the face-box coordinations into the 'box' state variable. */
   displayFaceBox = (box) => {
     this.setState({box});
   }
